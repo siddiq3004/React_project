@@ -1,6 +1,6 @@
 function App() {
   return (
-    <>Hello doston</>
+    <>Hello doston. friends </>
   );
 }
 
