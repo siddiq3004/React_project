@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+`Before starting the server` 
+* `npm i` for downloading the node modules
+* then run `npm run`
+
 ## Available Scripts
 
 In the project directory, you can run:
