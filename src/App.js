@@ -5,6 +5,7 @@ import {
   useUser,
   RedirectToSignIn,
 } from "@clerk/clerk-react";
+import Navbar from "./components/Navbar/Navbar";
 
 if (!process.env.REACT_APP_CLERK_PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
@@ -16,9 +17,8 @@ function App() {
     <>
       <ClerkProvider publishableKey={clerkPubKey}>
         <SignedIn>
-          <div className="text-3xl text-red-800">
-            hello dostoon(protected)
-            <UserButton/>
+          <div>
+           <Navbar/>
           </div>
         </SignedIn>
         <SignedOut>
