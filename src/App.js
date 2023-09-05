@@ -1,6 +1,10 @@
 function App() {
   return (
-    <>Hello doston. friends </>
+    <>
+      <div className="">
+        hello dostoon
+      </div>
+    </>
   );
 }
 
