@@ -25,14 +25,9 @@ function App() {
     <>
       {/* <ClerkProvider publishableKey={clerkPubKey}>
         <SignedIn>
-<<<<<<< HEAD
           <div className="text-3xl text-red-800">
             <Navbar />
             <UserButton/>
-=======
-          <div>
-           <Navbar/>
->>>>>>> 0f4ce9c7d51075d85e3fba87c8454da18dd9416a
           </div>
         </SignedIn>
         <SignedOut>
