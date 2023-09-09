@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import '../Navbar/navbar.css'
 import { Link } from 'react-router-dom'
 
@@ -34,26 +33,6 @@ const Navbar = () => {
     </ul> */}
     </div>
     </>
-=======
-import "./Navbar.css"
-import { UserButton } from '@clerk/clerk-react'
-import logo from '../../assets/images/logo.png'
-import { HomeIcon } from '@radix-ui/react-icons'
-
-const Navbar = () => {
-  return (
-    <div className='nav-bar'>
-        <div className="logo">
-            <img src={logo} alt="Logo" />
-        </div>
-        <div className="nav-menu">
-            <Link>
-            <HomeIcon/>Home
-            </Link>
-        </div>
-        <UserButton/>
-    </div>
->>>>>>> 0f4ce9c7d51075d85e3fba87c8454da18dd9416a
   )
 }
 
