@@ -1,0 +1,13 @@
+.home-page{
+    background-color: hotpink;
+}
+
+.home-page{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 93.5vh;
+    /* background-color: chocolate; */
+}

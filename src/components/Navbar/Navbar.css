@@ -1,0 +1,20 @@
+.navigation {
+    background-color: none;
+    width: auto;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .nav-items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navigation .nav-items .nav-content{
+    text-decoration: none;
+    color: black;
+}
