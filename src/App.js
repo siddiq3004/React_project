@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import {
 //   ClerkProvider,
 //   SignedIn,
@@ -5,6 +6,15 @@
 //   UserButton,
 //   RedirectToSignIn,
 // } from "@clerk/clerk-react";
+=======
+import {
+  ClerkProvider, SignedIn,
+  SignedOut,
+  UserButton,
+  RedirectToSignIn,
+} from "@clerk/clerk-react";
+import Navbar from "./components/Navbar/Navbar";
+>>>>>>> 0f4ce9c7d51075d85e3fba87c8454da18dd9416a
 
 import "./app.css";
 import Index from "./pages/Index/Index";
@@ -25,9 +35,14 @@ function App() {
     <>
       {/* <ClerkProvider publishableKey={clerkPubKey}>
         <SignedIn>
+<<<<<<< HEAD
           <div className="text-3xl text-red-800">
             <Navbar />
             <UserButton/>
+=======
+          <div>
+           <Navbar/>
+>>>>>>> 0f4ce9c7d51075d85e3fba87c8454da18dd9416a
           </div>
         </SignedIn>
         <SignedOut>
